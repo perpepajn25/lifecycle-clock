@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class ClockSelector extends Component {
   render () {
     return (
-      <div>
+      <div className="app-children">
         {this.props.digital ? (
           <button onClick={this.props.onToggleClock}>
             Switch To Analog

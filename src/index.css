@@ -1,11 +1,42 @@
-
 body {
   margin: 0;
-  font-size: 2rem;
-  display:flex;
-  flex:1;
-  min-height: 100vh;
+  margin-top: 10vh;
+  height: 100vh;
+  width: 100vw
+}
+
+#app {
+  display: grid;
+  grid-template-rows: 8vw 30vw;
+}
+
+.app-children {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center
+}
+
+#digital {
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  color: green;
+  width: 25vw;
+  height: 6vw;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  font-size: 3.5vw;
+  border: 1vw solid grey;
+}
+
+button {
+  height: 5vw;
+  font-size: 3.5vw;
+  border-radius: 2vw;
+  background-color: black;
+  color: white;
 }
 
 .clock-container {
@@ -17,16 +48,16 @@ body {
 .clock {
   width: 15rem;
   height: 15rem;
-  border:20px solid white;
+  border:20px solid maroon;
   border-radius:50%;
   margin:50px auto;
   position: relative;
   padding:2rem;
   box-shadow:
-    0 0 0 4px rgba(0,0,0,0.1),
+    0 0 0 4px rgba(0,0,0,0.2),
     inset 0 0 0 3px #EFEFEF,
     inset 0 0 10px black,
-    0 0 10px rgba(0,0,0,0.2);
+    0 0 10px rgba(0,0,0,0.3);
 }
 .clock-face {
   position: relative;

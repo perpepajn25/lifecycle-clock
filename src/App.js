@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     const { digital } = this.state
     return (
-      <div>
+      <div id="app">
         <ClockSelector digital={this.state.digital} onToggleClock={this.handleClockTypeChange}/>
         {digital ? <DigitalClock /> : <AnalogClock />}
       </div>
