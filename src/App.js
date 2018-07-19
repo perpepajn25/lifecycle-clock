@@ -13,7 +13,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div id='app'>
         {/* <ClockSelector digital={this.state.digital} onToggleClock={this.handleClockTypeChange}/> */}
         <DigitalClock />
         {/* {digital ? <DigitalClock /> : <AnalogClock />} */}

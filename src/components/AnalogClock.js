@@ -16,9 +16,9 @@ class AnalogClock extends Component {
       <div className='clock-container'>
         <div className="clock">
           <div className="clock-face">
-            <div style={{transform: `rotate(${hourDegrees}deg)`, background: 'red'}} className="hand hour-hand"></div>
-            <div style={{transform: `rotate(${minsDegrees}deg)`, background: 'blue'}} className="hand min-hand"></div>
-            <div style={{transform: `rotate(${secondsDegrees}deg)`, background: 'yellow'}} className="hand second-hand"></div>
+            <div style={{transform: `rotate(${hourDegrees}deg)`, background: 'darkred'}} className="hand hour-hand"></div>
+            <div style={{transform: `rotate(${minsDegrees}deg)`, background: 'darkblue'}} className="hand min-hand"></div>
+            <div style={{transform: `rotate(${secondsDegrees}deg)`, background: 'darkgreen'}} className="hand second-hand"></div>
           </div>
         </div>
       </div>
