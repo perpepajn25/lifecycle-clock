@@ -1,6 +1,12 @@
 import React, { Component } from 'react'
 
 class ClockSelector extends Component {
+
+
+  componentDidUpdate () {
+    console.log('clockSelector updating')
+  }
+
   render () {
     return (
       <div className="app-children">
